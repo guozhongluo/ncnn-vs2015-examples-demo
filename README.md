@@ -6,3 +6,4 @@
 
 	use visual studio 2015
 
+# CPU i7 3.4GHZ， image 429*344， cost 1.34秒/fps

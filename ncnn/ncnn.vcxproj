@@ -105,6 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>C:\Users\luoguozhong\Downloads\opencv\build\include;C:\Users\luoguozhong\Downloads\opencv\build\include\opencv;C:\Users\luoguozhong\Downloads\opencv\build\include\opencv2;D:\vs2015\ncnn\ncnn\src;D:\vs2015\ncnn\ncnn\src\layer\x86;D:\vs2015\ncnn\ncnn\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

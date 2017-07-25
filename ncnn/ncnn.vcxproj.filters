@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ncnn">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="squeezenet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\x86\convolution_x86.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\absval.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\argmax.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\batchnorm.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\bias.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\bnll.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\concat.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\convolution.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\crop.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\deconvolution.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\dropout.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\eltwise.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\elu.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\embed.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\exp.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\flatten.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\innerproduct.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\input.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\log.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\lrn.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\lstm.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\memorydata.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\mvn.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\pooling.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\power.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\prelu.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\proposal.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\reduction.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\relu.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\reshape.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\rnn.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\roipooling.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\scale.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\sigmoid.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\slice.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\softmax.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\split.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\spp.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\tanh.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\threshold.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\tile.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blob.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpu.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_pixel.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opencv.cpp">
+      <Filter>ncnn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\layer\x86\avx_mathfun.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\x86\convolution_3x3.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\x86\convolution_5x5.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\x86\convolution_x86.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\x86\sse_mathfun.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\absval.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\argmax.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\batchnorm.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\bias.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\bnll.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\concat.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\convolution.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\crop.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\deconvolution.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\dropout.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\eltwise.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\elu.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\embed.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\exp.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\flatten.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\innerproduct.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\input.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\log.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\lrn.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\lstm.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\memorydata.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\mvn.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\pooling.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\power.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\prelu.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\proposal.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\reduction.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\relu.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\reshape.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\rnn.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\roipooling.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\scale.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\sigmoid.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\slice.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\softmax.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\split.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\spp.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\tanh.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\threshold.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\tile.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blob.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpu.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\net.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opencv.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer_declaration.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer_registry.h">
+      <Filter>ncnn</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

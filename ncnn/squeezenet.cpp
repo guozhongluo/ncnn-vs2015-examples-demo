@@ -173,6 +173,7 @@ int main(int argc, char** argv)
 	}
 
 	imshow("m", m);
+	imwrite("dog_result.jpg", m);
 	waitKey(0);
 #endif
 
